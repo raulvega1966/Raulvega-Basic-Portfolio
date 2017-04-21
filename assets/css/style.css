@@ -1,0 +1,272 @@
+body {
+
+    font-family: arial, "Helvetica Neue", Helvetica, "sans-serif";
+    line-height: 120%;
+    color: #777777;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ffffff;
+    border: #cccccc;
+}
+
+p {
+    color: #777777;
+}
+
+#bolder:hover {
+    font-weight: bold;
+    color: red;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-family: georgia, times, "times new roman", serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+h5 {
+    color: white;
+}
+
+#cwm {
+    width: 70%;
+}
+
+
+#yourname,
+#contact,
+#portfolio,
+#about {
+    height: 50px;
+}
+
+#yourname {
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #4aaaa5;
+}
+
+
+#contact,
+#portfolio,
+#about {
+    line-height: 30px;
+    font-size: 12px;
+    padding-top: 20px;
+    float: right;
+    width: 70px;
+    text-align: center;
+    
+}
+
+#about {
+    margin-right: 140px;
+}
+
+.middle {
+    clear: both;
+    padding-top: 25px;
+    width: 960px;
+    background: #d3d3d3;
+    border: #dddddd;
+    height: 580px;
+}
+
+
+img {
+    float: left;
+    padding-right: 28px;
+}
+
+
+.aboutme {
+    color: #4aaaa5;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    overflow: auto;
+    width: 500px;
+    background: white;
+    text-overflow: auto;
+    line-height: 25px;
+}
+
+ 
+.connectwithme {
+    font-weight: bold;
+    color: #4aaaa5;
+    display: inline-block;
+    margin-left: 20px;
+    height: 120px;
+    width: 250px;
+    text-align: center;
+    padding-top: 15px;
+    background: white;
+}
+
+ul { list-style-type: none;
+    overflow: auto;
+    padding-left: 32px;
+    margin-left: 5px;
+ }
+
+
+.middle1 {
+    clear: both;
+    padding-top: 25px;
+    height: 580px;
+    width: 960px;
+    background: #d3d3d3;
+    border: #dddddd;
+}
+
+.contactdiv {
+    font-weight: bold;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    height: 465px;
+    width: 500px;
+    background: white;
+    text-overflow: auto;
+}
+
+#name,
+#email,
+#message {
+    font-size: 12px;
+    line-height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+
+#message {
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+#name:hover,
+#email:hover, 
+#message:hover {
+    background-color: yellow;
+}
+
+
+#submission {
+    padding-top: 10px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    background: #4aaaa5;
+    font-weight: bold;
+}
+
+
+.middle3 {
+    clear: both;
+    padding-top: 25px;
+    height: 580px;
+    width: 960px;
+    background: #d3d3d3;
+    border: #dddddd;
+}
+
+
+.portfolio2 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 24px;
+    overflow: auto;
+    width: 440px;
+    background: white;
+}
+
+.fixmargin {
+    margin-right: 5px;
+}
+
+.container1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.center {
+    padding-top: 7px;
+    font-size: 12px;
+    color: white;
+    background: #4aaaa5;
+    height: 30px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 80px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+}
+
+
+
+
+#space {
+    height: 8px;
+    width: 960px;
+    background: #4aaaa5;
+}
+
+
+#footer {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #666666;
+}
